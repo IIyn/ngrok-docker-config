@@ -2,12 +2,12 @@ version: "2"
 authtoken: your_ngrok_token
 tunnels:
   port-3001:
-    addr:3001
+    addr: host.docker.internal:3001
     schemes: 
       - https
     proto: http
   port-3000:
-    addr: 3000
+    addr: host.docker.internal:3000
     schemes:
       - https
     proto: http
